@@ -1,5 +1,15 @@
+--------------------------------------------------------------------------
 
--- ToArrival function used for running command in a private char
+-- pTokax lua 5 version
+-- The studentSearch Bot
+
+-- By bobbyToor
+-- This script searches for the query in the database file related to student records
+
+
+----------------------------------------------------------------------------
+
+-- ToArrival function used for running command in a private chat
 ToArrival=function (user,data)
 
 local msg = string.match(tostring(data),'%<.-%>%s+(.-)%|')
