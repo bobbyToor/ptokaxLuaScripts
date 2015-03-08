@@ -1,0 +1,28 @@
+
+timeInterval = 2000 
+flag = true
+
+OnStartup = function()
+TmrMan.AddTimer(timeInterval,setTopic)
+end
+
+
+
+setTopic = function()
+
+if flag == true then
+file = io.open('C:/zx.txt')
+flag = false
+end
+
+str = file:read()
+
+if str == nil then 
+file:close()
+file = io.open('C:/zx.txt')
+str = file:read()
+end
+
+SetMan.SetString(0,'ROOM OF REQUIREMENTS - '..str)
+
+end

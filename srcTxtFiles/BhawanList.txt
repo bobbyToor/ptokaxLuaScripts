@@ -1,0 +1,13 @@
+Malviya					1,2,9,11,12,13
+Meera					3,4,5,6,7,8,10
+Ashok					14,15
+Bhagirath				16,17
+Budh					18,19
+Gandhi					20,21
+Krishna					22,23
+Ram					24,25
+Ranapratap				26,27
+Shankar					28,29
+Vishwakarma				30,31		
+Vyas					32,33
+SR					34,35,36,37
